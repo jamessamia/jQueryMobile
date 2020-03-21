@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.css">
+    <title>Page Title</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile-1.4.5.js"></script>
+</head>
+
+<body>
+
+        <!-- Start of first page -->
+        <div data-role="page" id="foo">
+        
+            <div data-role="header">
+                <h1>KMT ARTS & SIGN</h1>
+            </div><!-- /header -->
+        
+            <div role="main" class="ui-content">
+                <p>I'm first in the source order so I'm shown as the page.</p>
+                <p>we accept orders from small businesses and large businesses please message or contact us
+                        via 09177232305
+                        
+                        thank you and God Bless🙂
+                        
+                        (price may vary) <a href="#bar">See Samples</a></p>
+                        <center>
+                                <a href="#popupSydney" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="./assets/kmt.jpg" alt="kmt" style="width:30%"></a>
+
+                        </center>
+
+                <div data-role="popup" id="popupSydney" data-overlay-theme="b" data-theme="b" data-corners="false">
+                    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="./assets/kmt.jpg" style="max-height:512px;" alt="kmt">
+                </div>
+
+            </div><!-- /content -->
+        
+            <div data-role="footer">
+                <h4>Page Footer</h4>
+            </div><!-- /footer -->
+        </div><!-- /page -->
+        
+
+
+        <!-- Start of second page -->
+        <div data-role="page" id="bar">
+        
+            <div data-role="header">
+                <h1>KMT ARTS & SIGN</h1>
+            </div><!-- /header -->
+        
+            <div role="main" class="ui-content">
+                    <p>I'm first in the source order so I'm shown as the page.</p>
+                    <p>We accept tarpaulin , sticker, perforated sticker, billboards, panaflex printing with or without layout . <a href="#foo">Go to Homepage</a></p>
+                    <center>
+                        <a href="#popupParis" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="./assets/kmt1.jpg" alt="Paris, France" style="width:30%"></a>
+                        <a href="#popupNYC" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="./assets/kmt2.jpg" alt="New York, USA" style="width:30%"></a>
+                            
+                    </center>
+                   <div data-role="popup" id="popupParis" data-overlay-theme="b" data-theme="b" data-corners="false">
+                        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="./assets/kmt1.jpg" style="max-height:512px;" alt="Paris, France">
+                    </div>
+                    <div data-role="popup" id="popupNYC" data-overlay-theme="b" data-theme="b" data-corners="false">
+                        <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="./assets/kmt2.jpg" style="max-height:512px;" alt="New York, USA">
+                    </div>
+            </div><!-- /content -->
+        
+            <div data-role="footer">
+                <h4>Page Footer</h4>
+            </div>
+
+        </div><!-- /page -->
+        </body>
+        
+</html>
